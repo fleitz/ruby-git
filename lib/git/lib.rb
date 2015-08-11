@@ -898,7 +898,7 @@ module Git
       
       command_thread = nil; 
       
-      exitstatus = nil
+      exitstatus = 2
 
       with_custom_env_variables do
         command_thread = Thread.new do 
